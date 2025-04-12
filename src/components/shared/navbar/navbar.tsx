@@ -1,7 +1,6 @@
 import { component$, useSignal } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 
-import logo from "/assets/icons/House_Logo.svg";
 import { Icons } from "./icons";
 
 export const Navbar = component$(() => {
@@ -12,7 +11,11 @@ export const Navbar = component$(() => {
       <div class="flex items-center justify-between h-full">
         {/* Logo */}
         <Link href="/" class="flex items-center gap-2">
-          <img src={logo} alt="Furniro Logo" class="w-8 h-8" />
+          <img
+            src="/assets/icons/House_Logo.svg"
+            alt="Furniro Logo"
+            class="w-8 h-8"
+          />
           <h2 class="font-mont text-2xl lg:text-[34px]">Furniro</h2>
         </Link>
 
