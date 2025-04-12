@@ -1,0 +1,12 @@
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/montserrat/700.css';
+
+@import "tailwindcss";
+
+@theme {
+    --font-sans: 'Poppins', 'sans-serif';
+    --font-mont: 'Montserrat', 'sans-serif';
+    --color-primary: #B88E2F;
+    --color-secondary: #333;
+    --color-rgba: rgba(255, 255, 255, 0.72)
+}
